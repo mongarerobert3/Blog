@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
-RUN apk UPDATE && \
-	apk add --no-cache openssh-client
+RUN apk update && \
+    apk add --no-cache openssh-client
 
 WORKDIR /app
 
